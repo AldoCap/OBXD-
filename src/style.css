@@ -1,0 +1,75 @@
+
+midi-controller {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+  }
+  
+  midi-controller h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  midi-controller label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+    font-weight: bold;
+  }
+  
+  midi-controller input[type="range"] {
+    width: 100%;
+  }
+  
+  midi-controller select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  
+  midi-controller input[type="range"] {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: #ccc;
+    border-radius: 3px;
+    outline: none;
+    margin-top: 5px;
+  }
+  
+  midi-controller input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  midi-controller input[type="range"]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: #007bff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+
+  midi-controller select {
+    background-color: #fff;
+    color: #333;
+  }
+
